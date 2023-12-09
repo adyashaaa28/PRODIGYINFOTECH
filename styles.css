@@ -1,0 +1,67 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F7F3EC; 
+}
+
+header {
+    background: url('pic3.jpeg') center/cover;
+    color: #2C3E50; 
+    padding: 20px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative; /* Add this to position the content on top of the background image */
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: #ffffff; 
+    text-decoration: none;
+    padding: 15px;
+    margin: 0 10px;
+    transition: color 0.3s ease-out;
+}
+
+nav a:hover {
+    color: #FFCC00; 
+}
+
+.hero {
+    color: #ffffff; 
+    text-align: center;
+    padding: 100px 0;
+    position: relative; /* Add this to position the content on top of the background image */
+}
+
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative; /* Add this to position the content on top of the background image */
+}
+
+.book {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book img {
+    max-width: 200px; /* or any other value that fits your design */
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+}
